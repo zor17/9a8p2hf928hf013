@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(146, 11, 146);
+    background-image: url(eggless.png);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+video{
+    width: 1080px;
+    height: 525px;
+}
+.video{
+    width: 383px;
+    height: 599px;
+    /* border: 1px solid white; */
+    overflow: hidden hidden;
+    display: flex;
+    justify-content: center;
+    margin-top: -110px;
+    position: absolute;
+}
+.bdaytext{
+    display: flex;
+    padding: 40px;
+    font-size: 70px;
+    font-family: 'gloria hallelujah';
+    color: white;
+    visibility: hidden;
+}
+.image{
+    margin-top: 40px;
+}
+@media(max-width: 800px){
+    *{
+        display: none;
+    }
+}
+#loader{
+    background: #fff url('Heart\ arrow.gif') no-repeat center center;
+    height: 1000vh;
+    width: 100vw;
+    position: fixed;
+    z-index: 100;
+}

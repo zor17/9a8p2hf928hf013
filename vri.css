@@ -1,0 +1,332 @@
+
+.box{
+    /* padding: 7% 7%; */
+    width: 280px;
+    height: 300px;
+    border: 0.4vh solid black;
+    position: absolute;
+    left: 43.47%;
+    background-color: white;
+    box-shadow: 1px 1px 7px;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+#box{
+    /* padding: 7% 7%; */
+    width: 280px;
+    height: 300px;
+    border: 0.4vh solid black;
+    position: absolute;
+    left: 43.47%;
+    background-color: white;
+    box-shadow: 1px 1px 7px;
+    display: flex;
+    justify-content: center;
+}
+#box1{
+    /* padding: 7% 7%; */
+    width: 280px;
+    height: 300px;
+    border: 0.4vh solid black;
+    position: absolute;
+    left: 43.47%;
+    background-color: white;
+    box-shadow: 1px 1px 7px;
+    display: flex;
+    justify-content: center;
+}
+#box2{
+    /* padding: 7% 7%; */
+    width: 280px;
+    height: 300px;
+    border: 0.4vh solid black;
+    position: absolute;
+    left: 43.47%;
+    background-color: white;
+    box-shadow: 1px 1px 7px;
+    display: flex;
+    justify-content: center;
+}
+#box3{
+    /* padding: 7% 7%; */
+    width: 280px;
+    height: 300px;
+    border: 0.4vh solid black;
+    position: absolute;
+    left: 43.47%;
+    background-color: white;
+    box-shadow: 1px 1px 7px;
+    display: flex;
+    justify-content: center;
+}
+#box4{
+    /* padding: 7% 7%; */
+    width: 280px;
+    height: 300px;
+    border: 0.4vh solid black;
+    position: absolute;
+    left: 43.47%;
+    background-color: white;
+    box-shadow: 1px 1px 7px;
+    display: flex;
+    justify-content: center;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(./image2.png);
+    background-repeat: no-repeat;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+.butt{
+position: absolute;
+width: 250px;
+height: 75px;
+background: #000000;
+border-radius: 35px;
+font-family: 'kranky';
+color: white;
+font-weight: 400;
+font-size: 160%;
+padding: 0;
+z-index: 0;
+left: 43.47%;
+transition: 0.2s ease-in-out;
+cursor: pointer;
+}
+.butt.active{
+    background: white;
+    color: black;
+    font-weight: 900;
+}
+.butt.active:hover{
+    background: black;
+    color: white;
+    border: 3px solid white;
+    font-weight: 400;
+}
+.butt.active3:hover{
+    background: black;
+    color: white;
+    border: 3px solid white;
+    font-weight: 400;
+}
+.butt:hover{
+    background: white;
+    color: black;
+    font-weight: 900;
+    border: 3px solid black;
+}
+.hider{
+    z-index: 2;
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 40px;
+    display: none;
+    position: absolute;
+    padding: 10000px;
+}
+@media(max-width: 600px){
+    .box{
+        display: none;
+    }
+    .hider{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+#menu{
+    position: absolute;
+    display: flex;
+    left: 20px;
+    top: 20px;
+    background-color: black;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 1em;
+    color: rgb(255, 255, 255);
+    padding: 2px;
+    cursor: pointer;
+}
+#menu.active{
+    position: absolute;
+    padding: 2px;
+    display: flex;
+    left: 20px;
+    top: 20px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+    border-radius: 1em;
+    color: rgb(0, 0, 0);
+}
+
+#menu2{
+    left: 50px;
+    position: absolute;
+    display: flex;
+    top: 20px;
+    padding: 2px;
+    background-color: rgb(243, 62, 168);
+    border: 1px solid black;
+    border-radius: 1em;
+    color: rgb(243, 62, 168);
+    cursor: pointer;
+}
+#menu2.active{
+    left: 50px;
+    position: absolute;
+    display: flex;
+    top: 20px;
+    background-color: rgb(243, 62, 168);
+    border: 1.5px solid black;
+    border-radius: 1em; 
+    color: rgb(243, 62, 168);
+}
+#menu3{
+    left: 80px;
+    position: absolute;
+    display: flex;
+    top: 20px;
+    padding: 2px;
+    background-color: rgb(76, 235, 13);
+    border: 1px solid black;
+    border-radius: 1em;
+    color: rgb(76, 235, 13);
+    cursor: pointer;
+}
+#menu3.active{
+    left: 80px;
+    position: absolute;
+    display: flex;
+    top: 20px;
+    background-color: rgb(76, 235, 13);
+    border: 1.5px solid black;
+    border-radius: 1em; 
+    color: black;
+}
+#box.active{
+    border: 3px solid white;
+    background-color: black;
+}
+#box1.active{
+    border: 3px solid white;
+    background-color: black;
+}
+#box2.active{
+    border: 3px solid white;
+    background-color: black;
+}
+#box3.active{
+    border: 3px solid white;
+    background-color: black;
+}
+#box4.active{
+    border: 3px solid white;
+    background-color: black;
+}
+.butt.active3{
+    background: rgb(231, 233, 38);
+    color: rgb(0, 0, 0);
+    font-weight: 800;
+    border: 4px solid;
+}
+body.active3{
+    background-image: url(image_green.jpg);
+}
+body.active{
+    background-image: url(image_dark2.png);
+}
+body.active2{
+    background-image: url(image_pink.png);
+}
+#box.active2{
+    border: 3px solid black;
+    background-color: rgb(90, 178, 165);
+}
+#box1.active2{
+    border: 3px solid black;
+    background-color: rgb(90, 178, 165);
+}
+#box2.active2{
+    border: 3px solid black;
+    background-color: rgb(90, 178, 165);
+}
+#box3.active2{
+    border: 3px solid black;
+    background-color: rgb(90, 178, 165);
+}
+#box4.active2{
+    border: 3px solid black;
+    background-color: rgb(90, 178, 165);
+}
+#box.active3{
+    border: 3px solid black;
+    background-color: rgb(248, 251, 181);
+}
+#box1.active3{
+    border: 3px solid black;
+    background-color: rgb(248, 251, 181);
+}
+#box2.active3{
+    border: 3px solid black;
+    background-color: rgb(248, 251, 181);
+}
+#box3.active3{
+    border: 3px solid black;
+    background-color: rgb(248, 251, 181);
+}
+#box4.active3{
+    border: 3px solid black;
+    background-color: rgb(248, 251, 181);
+}
+#stop{
+    position: absolute;
+    top: 10px;
+    left: 110px;
+    background-color: black;
+    padding: 20px;
+    color: white;
+    border-radius: 45px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 130px;
+    height: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    cursor: pointer;
+}
+#stop:hover{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+    color: black;
+}
+.img{
+    display: flex;
+    overflow: hidden;
+    border: 1px solid black;
+    width: 240px;
+    height: 200px;
+    position: absolute;
+    top: 20px;
+}
+.prot{
+    display: flex;
+    overflow: hidden;
+    border: 1px solid black;
+    width: 240px;
+    height: 200px;
+    position: absolute;
+    top: 20px;
+}
