@@ -9,6 +9,10 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    overflow: hidden hidden;
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
 }
 video{
     width: 1080px;
@@ -21,8 +25,11 @@ video{
     overflow: hidden hidden;
     display: flex;
     justify-content: center;
-    margin-top: -110px;
+    /* margin-top: -110px; */
     position: absolute;
+    bottom: 250px;
+    margin: 0;
+    margin-top: 10px;
 }
 .bdaytext{
     display: flex;
@@ -33,7 +40,10 @@ video{
     visibility: hidden;
 }
 .image{
-    margin-top: 40px;
+    position: absolute;
+    bottom: 317px;
+    margin: 0;
+    margin-top: 10px;
 }
 @media(max-width: 800px){
     *{
