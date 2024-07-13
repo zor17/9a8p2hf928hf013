@@ -3,7 +3,7 @@
     padding: 0;
 }
 body{
-    background-color: rgb(146, 11, 146);
+    background-color: rgb(0, 0, 0);
     background-image: url(eggless.png);
     display: flex;
     flex-direction: column;
@@ -11,8 +11,9 @@ body{
     align-items: center;
     overflow: hidden hidden;
     height: 100vh;
-    width: 100vw;
+    width: 100%;
     background-size: cover;
+    background-repeat: no-repeat;
 }
 video{
     width: 1080px;
@@ -28,6 +29,7 @@ video{
     /* margin-top: -110px; */
     position: absolute;
     bottom: 250px;
+    top: 92px;
     margin: 0;
     margin-top: 10px;
 }
@@ -41,9 +43,22 @@ video{
 }
 .image{
     position: absolute;
+    top: 92px;
     bottom: 317px;
     margin: 0;
     margin-top: 10px;
+}
+@media(max-width: 1600px){
+    body{
+        width: 100%;
+        background-size: cover;
+    }
+    .video{
+        top: 0px;
+    }
+    .image{
+        top: 0px;
+    }
 }
 @media(max-width: 800px){
     *{
