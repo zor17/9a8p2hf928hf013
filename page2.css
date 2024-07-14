@@ -9,7 +9,6 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    overflow-x: hidden;
     overflow-y: scroll;
     height: 100vh;
     width: 100%;
@@ -59,26 +58,36 @@ video{
         background-image: url(reso.png);
     }
 }
-@media(max-width: 1600px){
+@media(max-width: 900px){
+    *{
+        display: none;
+    }
+}
+@media(max-width: 1260px){
     body{
-        background-image: url(reso.png);
-        width: 100%;
-        background-size: cover;
-    }
-    .image{
-        margin-bottom: 60px;
+        background-image: url(finally900.png);
     }
 }
-@media(max-width: 1279px){
+@media(max-width: 1281px){
+    body{
+        background-image: url(finally1280.png);
+    }
+}
+@media(max-width: 1367px){
+    body{
+        background-image: url(finally1366.png);
+    }
+}
+@media(max-width: 1367px){
+    body{
+        background-image: url(finally1366.png);
+    }
+}
+@media(max-height: 500px){
     *{
         display: none;
     }
 }
-/* @media(max-height: 720px){
-    *{
-        display: none;
-    }
-} */
 #loader{
     background: #fff url('Heart\ arrow.gif') no-repeat center center;
     height: 1000vh;
