@@ -245,10 +245,10 @@ body.active3{
     background-image: url(image_green.jpg);
 }
 body.active{
-    background-image: url(image_dark2.png);
+    background-image: url(image_dark2.jpg);
 }
 body.active2{
-    background-image: url(image_pink.png);
+    background-image: url(image_pink.jpg);
 }
 #box.active2{
     border: 3px solid black;
