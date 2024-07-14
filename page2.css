@@ -51,14 +51,14 @@ video{
     color: white;
     visibility: hidden;
 }
-/* @media(max-height: 950){
+@media(max-height: 950){
     .image{
         position: absolute;
     }
     body{
         background-image: url(reso.png);
     }
-} */
+}
 @media(max-width: 1600px){
     body{
         background-image: url(reso.png);
@@ -74,11 +74,11 @@ video{
         display: none;
     }
 }
-@media(max-height: 720px){
+/* @media(max-height: 720px){
     *{
         display: none;
     }
-}
+} */
 #loader{
     background: #fff url('Heart\ arrow.gif') no-repeat center center;
     height: 1000vh;
