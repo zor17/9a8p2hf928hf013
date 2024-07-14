@@ -20,6 +20,8 @@ class boxes{
             this.holdingBox = true;
             box.style.zIndex = highestZ;
             highestZ++;
+            document.querySelector('.hider').style.zIndex = highestZ;
+            document
             if(e.button === 0){
             this.prevMouseX = this.MouseX;
             this.prevMouseY = this.MouseY;
